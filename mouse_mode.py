@@ -100,5 +100,5 @@ def mouse_mode(threshold = general_settings["threshold"]):
             movement_loop(direction, threshold)
     print("Mouse mode off.")
 
-mouse_mode()
+
 

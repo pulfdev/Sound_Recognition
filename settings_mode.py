@@ -107,11 +107,11 @@ def settings_mode(user_made_sounds = user_made_sounds):
                 elif z != "X" and z != "x":
                     print("Please enter an integer or X if you want to cancel.")
         elif x == "e":
-            print("Are you sure you want to reset to default settings? You will lose all your trained sounds." + settings_dict["a"]+ ": Yes " + settings_dict["b"]+ ": No")
+            print("Are you sure you want to reset to default settings? You will lose all your trained sounds. " + settings_dict["a"]+ ": Yes  " + settings_dict["b"]+ ": No")
             sound_string = get_user_sounds(user_made_sounds) 
             print(sound_string)
             y = trigger_shortcut(sound_string, settings_dict)
-            if y == "y":
+            if y == "a":
                 reset_to_default() 
                 print("System has been reset to default settings.")
             else:
