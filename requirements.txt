@@ -5,3 +5,4 @@ PyAutoGUI==0.9.53
 twilio==7.14.0
 vosk==0.3.43
 wavio==0.0.4
+pydub==0.25.1
