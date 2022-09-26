@@ -7,9 +7,11 @@ To use Sound Recognition:
 
 
 2. Make sure you have portAudio installed. Run `brew install portaudio` to install. 
+3. Make sure you are in the directory. Run `cd path/Sound_Recognition
 
 
 3. Install `requirements.txt`. Run `pip install -r requirements.txt` in terminal. 
+4. Sometime there may be problems installing vosk and pyaudio from a requirements.txt file. run `pip install vosk` and `pip install pyaudio`
 
 
 4. Run the `main.py`.
